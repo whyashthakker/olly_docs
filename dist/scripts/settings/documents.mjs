@@ -13,8 +13,8 @@ export const Documents = [
                 href: "/setup",
             },
             {
-                title: "Changelog",
-                href: "/changelog",
+                title: "Personas",
+                href: "/personas",
             },
         ],
     },
