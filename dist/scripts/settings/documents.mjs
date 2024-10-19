@@ -5,10 +5,6 @@ export const Documents = [
         heading: "Getting started",
         items: [
             {
-                title: "Installation",
-                href: "/installation",
-            },
-            {
                 title: "Personas",
                 href: "/personas",
             },
@@ -17,23 +13,59 @@ export const Documents = [
     {
         spacer: true,
     },
+    // {
+    //   title: "Navigation",
+    //   href: "/navigation",
+    //   heading: "Documents",
+    // },
     {
-        title: "Navigation",
-        href: "/navigation",
-        heading: "Documents",
-    },
-    {
-        title: "Structure",
-        href: "/structure",
+        title: "Installation",
+        href: "/installation",
         items: [
             {
-                title: "Deeper",
-                href: "/deeper",
+                title: "Activating",
+                href: "/activating",
+            },
+            {
+                title: "Adding to Chrome",
+                href: "/adding-to-chrome",
+            },
+            {
+                title: "Connecting to LLMs",
+                href: "/connecting-llms",
                 items: [
                     {
-                        title: "Even deeper",
-                        href: "/even-deeper",
+                        title: "Claude",
+                        href: "/claude",
                     },
+                    {
+                        title: "Gemini",
+                        href: "/gemini",
+                    },
+                    {
+                        title: "Groq",
+                        href: "/groq",
+                    },
+                    {
+                        title: "Ollama",
+                        href: "/ollama",
+                    },
+                    {
+                        title: "Olly",
+                        href: "/olly",
+                    },
+                    {
+                        title: "OpenAI",
+                        href: "/openai",
+                    },
+                    {
+                        title: "OpenRouter",
+                        href: "/openrouter",
+                    },
+                    {
+                        title: "Straico",
+                        href: "/straico",
+                    }
                 ]
             },
         ],
@@ -42,46 +74,46 @@ export const Documents = [
         spacer: true,
     },
     {
-        title: "Markup",
-        href: "/markup",
-        heading: "Components",
-        items: [
-            {
-                title: "Cards",
-                href: "/cards",
-            },
-            {
-                title: "Diagrams",
-                href: "/diagrams",
-            },
-            {
-                title: "Filetree",
-                href: "/filetree",
-            },
-            {
-                title: "Lists",
-                href: "/lists",
-            },
-            {
-                title: "Maths",
-                href: "/maths",
-            },
-            {
-                title: "Notes",
-                href: "/notes",
-            },
-            {
-                title: "Steps",
-                href: "/steps",
-            },
-            {
-                title: "Table",
-                href: "/table",
-            },
-            {
-                title: "Tabs",
-                href: "/tabs",
-            },
-        ],
+        title: "Features",
+        href: "/features",
+        heading: "Go Deeper",
+        // items: [
+        //   {
+        //     title: "Cards",
+        //     href: "/cards",
+        //   },
+        //   {
+        //     title: "Diagrams",
+        //     href: "/diagrams",
+        //   },
+        //   {
+        //     title: "Filetree",
+        //     href: "/filetree",
+        //   },
+        //   {
+        //     title: "Lists",
+        //     href: "/lists",
+        //   },
+        //   {
+        //     title: "Maths",
+        //     href: "/maths",
+        //   },
+        //   {
+        //     title: "Notes",
+        //     href: "/notes",
+        //   },
+        //   {
+        //     title: "Steps",
+        //     href: "/steps",
+        //   },
+        //   {
+        //     title: "Table",
+        //     href: "/table",
+        //   },
+        //   {
+        //     title: "Tabs",
+        //     href: "/tabs",
+        //   },
+        // ],
     },
 ];
