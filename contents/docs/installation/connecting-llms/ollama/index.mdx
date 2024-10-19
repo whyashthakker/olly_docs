@@ -1,0 +1,120 @@
+---
+title: How to Get Your Ollama Running with Olly
+description: A step-by-step guide on setting up Ollama to work with the Olly Chrome Extension.
+keywords: ["Ollama", "Olly", "setup", "LLM", "local model"]
+---
+
+This guide will walk you through the process of setting up Ollama to work with the Olly Chrome Extension.
+
+![Ollama Setup](/images/installation/ollama.png)
+
+## 1. Download and Install Ollama
+
+- Visit the [Ollama download page](https://ollama.com/download).
+- Download the appropriate version for your operating system.
+- Install Ollama following the on-screen instructions.
+
+## 2. Select and Download an LLM Model
+
+- Browse available models at the [Ollama library](https://ollama.com/library).
+- Find your desired model and copy its repository name using the copy icon.
+- Open your terminal and paste the copied command to download the model.
+
+## 3. Confirm Model Download
+
+Verify the model download by running the following command in your terminal:
+
+```bash
+ollama run "model_name"
+```
+Replace `model_name` with the name of the model you downloaded (without quotes).
+
+## 4. Operating System-Specific Setup
+
+### 4.1 macOS Setup
+
+#### 4.1.1 Check if Ollama is running
+Open Terminal and run:
+```bash
+ps aux | grep ollama
+```
+
+#### 4.1.2 Set the Environment Variable
+In Terminal, run:
+```bash
+launchctl setenv OLLAMA_ORIGINS "chrome-extension://ofjpapfmglfjdhmadpegoeifocomaeje"
+```
+
+#### 4.1.3 Restart Ollama
+- If Ollama is running in your menu bar, right-click and select "Quit".
+- Restart the Ollama application.
+
+#### 4.1.4 Verify the Configuration
+In Terminal, run:
+```bash
+curl -I -H "Origin: chrome-extension://ofjpapfmglfjdhmadpegoeifocomaeje" http://localhost:11434/api/version
+```
+
+### 4.2 Windows Setup
+
+#### 4.2.1 Check if Ollama is running
+Open Command Prompt and run:
+```bash
+tasklist | findstr ollama
+```
+
+#### 4.2.2 Set the Environment Variable
+In Command Prompt (run as Administrator), execute:
+```bash
+setx OLLAMA_ORIGINS "chrome-extension://ofjpapfmglfjdhmadpegoeifocomaeje"
+```
+
+#### 4.2.3 Restart Ollama
+- Close Ollama completely.
+- Restart the Ollama application.
+
+#### 4.2.4 Verify the Configuration
+Open a new Command Prompt and run:
+```bash
+curl -I -H "Origin: chrome-extension://ofjpapfmglfjdhmadpegoeifocomaeje" http://localhost:11434/api/version
+```
+
+## 5. Configure Olly Chrome Extension
+
+- Open the Olly Chrome extension.
+- In the "API Key & LLM Vendor" dropdown, select "Local (Ollama)".
+- For the API key field, you can enter any text as it operates locally.
+
+## 6. Ensure Ollama is Running
+
+- Make sure to keep Ollama running on your local system at all times for seamless integration with the Olly Chrome extension.
+
+## Troubleshooting
+
+If you encounter any issues:
+- Ensure Ollama is properly installed and running.
+- Verify that the environment variable is set correctly.
+- Check that the selected model is downloaded and accessible.
+
+<CardGrid>
+  <Card
+    subtitle="Support"
+    title="Ollama Documentation"
+    description="Need more details? Check out the Ollama docs."
+    href="https://github.com/jmorganca/ollama/tree/main/docs"
+  />
+  <Card
+    subtitle="Community"
+    title="Ollama Discord"
+    description="Join the Ollama community for support and discussions."
+    href="https://discord.gg/ollama"
+  />
+  <Card
+    subtitle="Next Steps"
+    title="Generate Human-like Content with Olly."
+    description="Learn how to Generate Human-like Content"
+    href="https://youtu.be/NoAdUkt9ngY"
+  />
+</CardGrid>
+
+export const filePath = 'contents/docs/installation/connecting-llms/ollama/index.mdx';

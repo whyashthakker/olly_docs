@@ -1,4 +1,4 @@
-export const url = "https://rubix-documents.vercel.app";
+export const url = "https://olly.social";
 export const siteicon = "/icon.png";
 
 export const gtm = "GTM-XXXXXXX";
@@ -6,13 +6,13 @@ export const gtmconnected = true;
 
 export const sitename = "Documents";
 export const description = "This comprehensive documentation template, crafted with Next.js and available as open-source, delivers a sleek and responsive design, tailored to meet all your project documentation requirements.";
-export const keywords = ["Next.js", "documentation", "Rubix Studios", "open source", "SEO"];
+export const keywords = ["ai comment generator", "ai agent", "Olly Social", "open source", "SEO", "social media tools", "ai agents"];
 export const urlimage = "/images/og-image.png";
-export const imagealt = "Rubix Studios Documentation";
-export const twitterhandle = "@RubixStudios";
+export const imagealt = "Olly Social Documentation";
+export const twitterhandle = "@olly_social";
 
-export const companyname = "Rubix Studios";
-export const companylink = "https://www.rubixstudios.com.au";
+export const companyname = "Olly Social";
+export const companylink = "https://www.olly.social";
 
 export const branding = true;
 export const rightsidebar = true;

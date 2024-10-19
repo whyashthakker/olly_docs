@@ -9,10 +9,6 @@ export const Documents = [
                 href: "/installation",
             },
             {
-                title: "Setup",
-                href: "/setup",
-            },
-            {
                 title: "Personas",
                 href: "/personas",
             },
