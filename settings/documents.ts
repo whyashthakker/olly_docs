@@ -79,43 +79,19 @@ export const Documents: Paths[] = [
     title: "Features",
     href: "/features",
     heading: "Go Deeper",
-    // items: [
-    //   {
-    //     title: "Cards",
-    //     href: "/cards",
-    //   },
-    //   {
-    //     title: "Diagrams",
-    //     href: "/diagrams",
-    //   },
-    //   {
-    //     title: "Filetree",
-    //     href: "/filetree",
-    //   },
-    //   {
-    //     title: "Lists",
-    //     href: "/lists",
-    //   },
-    //   {
-    //     title: "Maths",
-    //     href: "/maths",
-    //   },
-    //   {
-    //     title: "Notes",
-    //     href: "/notes",
-    //   },
-    //   {
-    //     title: "Steps",
-    //     href: "/steps",
-    //   },
-    //   {
-    //     title: "Table",
-    //     href: "/table",
-    //   },
-    //   {
-    //     title: "Tabs",
-    //     href: "/tabs",
-    //   },
-    // ],
+    items: [
+      {
+        title: "Comment Generator",
+        href: "/comment-generator",
+      },
+      {
+        title: "Virality Checker",
+        href: "/virality-checker",
+      },
+      {
+        title: "Reply Generator",
+        href: "/virality-checker",
+      },
+    ],
   },
 ];
