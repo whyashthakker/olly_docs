@@ -89,8 +89,16 @@ export const Documents: Paths[] = [
         href: "/virality-checker",
       },
       {
-        title: "Reply Generator",
-        href: "/virality-checker",
+        title: "Post Summarizer",
+        href: "/post-summarizer",
+      },
+      {
+        title: "Similar Post Generator",
+        href: "/Similar-Post-Generator",
+      },
+      {
+        title: "Reply to Comments",
+        href: "/Reply-to-Comments",
       },
     ],
   },
