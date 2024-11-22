@@ -100,6 +100,14 @@ export const Documents: Paths[] = [
         title: "Reply to Comments",
         href: "/Reply-to-Comments",
       },
+      {
+        title: "Custom Actions",
+        href: "/custom-actions",
+      },
+      {
+        title: "Custom Personalities",
+        href: "/custom-personalities",
+      },
     ],
   },
 ];
