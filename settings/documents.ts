@@ -67,8 +67,8 @@ export const Documents: Paths[] = [
           {
             title: "Straico",
             href: "/straico",
-          }
-        ]
+          },
+        ],
       },
     ],
   },
@@ -107,6 +107,18 @@ export const Documents: Paths[] = [
       {
         title: "Custom Personalities",
         href: "/custom-personalities",
+      },
+      {
+        title: "Brand Voice",
+        href: "/brand-voice",
+      },
+      {
+        title: "Native Language Support",
+        href: "/native-language-support",
+      },
+      {
+        title: "Disabling Olly on Specific Websites",
+        href: "/disabling-olly-on-specific-websites",
       },
     ],
   },
