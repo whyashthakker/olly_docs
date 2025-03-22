@@ -1,27 +1,33 @@
 [
   {
-    "slug": "/common-errors/Error 500: Internal Server Error",
-    "title": "Untitled",
-    "description": "",
-    "content": ""
-  },
-  {
-    "slug": "/common-errors/Error: Invalid Activation Key",
-    "title": "Untitled",
-    "description": "",
-    "content": ""
-  },
-  {
     "slug": "/common-errors/error-401",
     "title": "Error 401: Incorrect LLM Vendor or API Key",
     "description": "Learn how to troubleshoot and resolve Error 401 when using mismatched API keys",
-    "content": "# Error 401: Incorrect LLM Vendor or API Key\n\n## Why This Error Occurs\n\nThis error indicates that you are using an incorrect LLM vendor. The API key you provided does not match the selected model provider. For example, selecting GPT models while using a ClaudeAI API key will result in this error.\n\nThe typical message is:\n\n```\nHTTP error! status: 401, message: {\n \"error\": {\n   \"message\": \"Incorrect API key provided: olly-ef6**c694. You can find your API key at https://platform.openai.com/account/api-keys./\",\n   \"type\": \"invalid_request_error\",\n   \"param\": null,\n   \"code\": \"invalid_api_key\"\n }\n}\n```\n\n## Steps to Resolve\n\n1. **Check Your API Key**: Ensure you are using the correct API key.\n2. **Verify the LLM Model**: Select the correct model that matches your API key.\n3. **Update in Olly Extension**: Go to the Olly extension and make sure you have selected the appropriate model and API key.\n\n## Frequently Asked Questions (FAQs)\n\n1. **What does Error 401 mean?**\\\n   *It means your API key is incorrect or does not match the selected LLM vendor.*\n\n2. **How do I find my correct API key?**\\\n   *Check the API key section on your LLM provider's platform.*\n"
+    "content": "## Why This Error Occurs\n\nThis error indicates that you are using an incorrect LLM vendor. The API key you provided does not match the selected model provider. For example, selecting GPT models while using a ClaudeAI API key will result in this error.\n\nThe typical message is:\n\n```\nHTTP error! status: 401, message: {\n \"error\": {\n   \"message\": \"Incorrect API key provided: olly-ef6**c694. You can find your API key at https://platform.openai.com/account/api-keys./\",\n   \"type\": \"invalid_request_error\",\n   \"param\": null,\n   \"code\": \"invalid_api_key\"\n }\n}\n```\n\n## Steps to Resolve\n\n1. **Check Your API Key**: Ensure you are using the correct API key.\n2. **Verify the LLM Model**: Select the correct model that matches your API key.\n3. **Update in Olly Extension**: Go to the Olly extension and make sure you have selected the appropriate model and API key.\n\n## Frequently Asked Questions (FAQs)\n\n1. **What does Error 401 mean?**\\\n   *It means your API key is incorrect or does not match the selected LLM vendor.*\n\n2. **How do I find my correct API key?**\\\n   *Check the API key section on your LLM provider's platform.*\n"
+  },
+  {
+    "slug": "/common-errors/error-404",
+    "title": "Error 404: Model Not Available",
+    "description": "Learn how to troubleshoot and resolve Error 404 when accessing AI models",
+    "content": "## Why This Error Occurs\n\nThis error occurs when the model you are trying to use is either deprecated or unavailable. It typically presents the following message:\n\n```\nHTTP error! status: 404, message: {\n \"error\": {\n   \"message\": \"The model gpt-4 does not exist or you do not have access to it.\"\n }\n}\n```\n\n## Steps to Resolve\n\n1. **Check Model Availability**: Verify if the model you are trying to use is still supported.\n2. **Update to the Latest Version**: Switch to the most recent version of the model.\n3. **Check Access Permissions**: Ensure you have the necessary permissions to use the model.\n4. **Restart Your API Connection**: Sometimes, reconnecting to the API can help resolve the issue.\n\n## Frequently Asked Questions (FAQs)\n\n1. **What does Error 404 mean in API usage?**\\\n   *It means the requested model is unavailable or does not exist.*\n\n2. **How do I know which models are available?**\\\n   *Check the official documentation or API dashboard for available models.*\n\n3. **Can I still use older models?**\\\n   *Only if they are still supported and you have access to them.*\n"
   },
   {
     "slug": "/common-errors/error-429",
     "title": "Error 429: Exceeded API Quota",
-    "description": "",
-    "content": "***\n\ntitle: \"Error 429: Exceeded API Quota\"\ndescription: \"Learn how to troubleshoot and resolve Error 429 when you've exceeded your API quota\"\n--------------------------------------------------------------------------------------------------\n\n# Error 429: Exceeded API Quota\n\n## Why This Error Occurs\n\nThis error indicates that you have run out of LLM credits. The typical message is:\n\n```\nHTTP error! status: 429, message: {\n \"error\": {\n   \"message\": \"You exceeded your current quota, please check your plan and billing details.\"\n }\n}\n```\n\n## Steps to Resolve\n\n1. **Check Your Plan and Billing**: Ensure you have sufficient API credits.\n2. **Add Credits**: Purchase additional credits to continue using the API.\n3. **Watch the Video Guide**: This guide explains the error and resolution in detail: [Watch Here](#)\n\n## Frequently Asked Questions (FAQs)\n\n1. **What does Error 429 mean?**\\\n   *It means you have exceeded your API quota or credits.*\n\n2. **How can I prevent running out of API credits?**\\\n   *Monitor your usage and ensure you have sufficient credits in place.*\n\n3. **Can I set up usage alerts for API credits?**\\\n   *Yes, many platforms provide alerts or limits to prevent overuse.*\n"
+    "description": "Learn how to troubleshoot and resolve Error 429 when you've exceeded your API quota",
+    "content": "# Error 429: Exceeded API Quota\n\n## Why This Error Occurs\n\nThis error indicates that you have run out of LLM credits. The typical message is:\n\n```\nHTTP error! status: 429, message: {\n \"error\": {\n   \"message\": \"You exceeded your current quota, please check your plan and billing details.\"\n }\n}\n```\n\n## Steps to Resolve\n\n1. **Check Your Plan and Billing**: Ensure you have sufficient API credits.\n2. **Add Credits**: Purchase additional credits to continue using the API.\n3. **Watch the Video Guide**: This guide explains the error and resolution in detail: [Watch Here](#)\n\n## Frequently Asked Questions (FAQs)\n\n1. **What does Error 429 mean?**\\\n   *It means you have exceeded your API quota or credits.*\n\n2. **How can I prevent running out of API credits?**\\\n   *Monitor your usage and ensure you have sufficient credits in place.*\n\n3. **Can I set up usage alerts for API credits?**\\\n   *Yes, many platforms provide alerts or limits to prevent overuse.*\n"
+  },
+  {
+    "slug": "/common-errors/error-500",
+    "title": "Error 500: Internal Server Error",
+    "description": "Learn how to troubleshoot and resolve Error 500 when experiencing server-side issues",
+    "content": "## Why This Error Occurs\n\nThis error is typically temporary and may be caused by an outage on a server or cloud provider. It can occur multiple times within a short period.\n\nThe typical message is:\n\n```\nHTTP error! status: 500, message: {\"success\":false,\"error\":\"\\nInvalid prisma.apiKey.findUnique() invocation:\\n\\n\\nCan't reach database server at junction.proxy.rlwy.net:55649\\n\\nPlease make sure your database server is running at junction.proxy.rlwy.net:55649.\"}\n```\n\n## Steps to Resolve\n\n1. **Wait for Automatic Resolution**: This error often resolves automatically as the server issue is fixed.\n2. **Refresh the Web Page**: Reload the page to check if the issue resolves.\n3. **Close All Tabs**: Shut down all browser tabs and reopen the application.\n4. **Restart Your Device**: If the error persists, restart your device to reset connections.\n\n## Frequently Asked Questions (FAQs)\n\n1. **What does Error 500 mean?**\\\n   *It indicates a server-side issue, often due to an outage or temporary failure.*\n\n2. **Is this error caused by my device or settings?**\\\n   *No, this is usually a server issue and not related to your device.*\n\n3. **How long does it take for Error 500 to resolve?**\\\n   *It is typically resolved quickly once the server issue is fixed.*\n"
+  },
+  {
+    "slug": "/common-errors/invalid-activation-key",
+    "title": "Error: Invalid Activation Key",
+    "description": "Learn how to resolve issues with invalid activation keys",
+    "content": "## Why This Error Occurs\n\nThis error occurs when an incorrect activation key is entered. The message typically states:\n\n```\nInvalid Activation Key. If you think this is a mistake, please reach out to Olly support via: https://olly.social/contact\n```\n\n## How to Resolve\n\nEnsure that you have copied and pasted the correct activation key. If the issue persists, contact Olly support for assistance: [Olly Support](https://olly.social/contact).\n\n## Frequently Asked Questions (FAQs)\n\n1. **What does 'Invalid Activation Key' mean?**\\\n   *It means the activation key entered is incorrect or invalid.*\n\n2. **Where can I find my correct activation key?**\\\n   *Check your email or the platform where you received the key.*\n\n3. **What if my activation key still doesn't work?**\\\n   *Contact Olly support for further assistance.*\n"
   },
   {
     "slug": "/features/Reply-to-Comments",

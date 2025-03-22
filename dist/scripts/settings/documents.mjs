@@ -74,53 +74,6 @@ export const Documents = [
         spacer: true,
     },
     {
-        title: "Features",
-        href: "/features",
-        heading: "Go Deeper",
-        items: [
-            {
-                title: "Comment Generator",
-                href: "/comment-generator",
-            },
-            {
-                title: "Virality Checker",
-                href: "/virality-checker",
-            },
-            {
-                title: "Post Summarizer",
-                href: "/post-summarizer",
-            },
-            {
-                title: "Similar Post Generator",
-                href: "/Similar-Post-Generator",
-            },
-            {
-                title: "Reply to Comments",
-                href: "/Reply-to-Comments",
-            },
-            {
-                title: "Custom Actions",
-                href: "/custom-actions",
-            },
-            {
-                title: "Custom Personalities",
-                href: "/custom-personalities",
-            },
-            {
-                title: "Brand Voice",
-                href: "/brand-voice",
-            },
-            {
-                title: "Native Language Support",
-                href: "/native-language-support",
-            },
-            {
-                title: "Disabling Olly on Specific Websites",
-                href: "/disabling-olly-on-specific-websites",
-            },
-        ],
-    },
-    {
         title: "Common Errors",
         href: "/common-errors",
         heading: "Troubleshooting",
@@ -130,40 +83,20 @@ export const Documents = [
                 href: "/error-429",
             },
             {
-                title: "Virality Checker",
-                href: "/virality-checker",
+                title: "Error 401: Incorrect LLM Vendor or API Key",
+                href: "/error-401",
             },
             {
-                title: "Post Summarizer",
-                href: "/post-summarizer",
+                title: "Error 404: Model Not Available",
+                href: "/error-404",
             },
             {
-                title: "Similar Post Generator",
-                href: "/Similar-Post-Generator",
+                title: "Error: Invalid Activation Key",
+                href: "invalid-activation-key",
             },
             {
-                title: "Reply to Comments",
-                href: "/Reply-to-Comments",
-            },
-            {
-                title: "Custom Actions",
-                href: "/custom-actions",
-            },
-            {
-                title: "Custom Personalities",
-                href: "/custom-personalities",
-            },
-            {
-                title: "Brand Voice",
-                href: "/brand-voice",
-            },
-            {
-                title: "Native Language Support",
-                href: "/native-language-support",
-            },
-            {
-                title: "Disabling Olly on Specific Websites",
-                href: "/disabling-olly-on-specific-websites",
+                title: "Error 500: Internal Server Error",
+                href: "/error-500",
             },
         ],
     },
