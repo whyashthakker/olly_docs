@@ -122,4 +122,51 @@ export const Documents: Paths[] = [
       },
     ],
   },
+  {
+    title: "Common Errors",
+    href: "/common-errors",
+    heading: "Troubleshooting",
+    items: [
+      {
+        title: "Error 429: Exceeded API Quota",
+        href: "/Error 429: Exceeded API Quota",
+      },
+      {
+        title: "Virality Checker",
+        href: "/virality-checker",
+      },
+      {
+        title: "Post Summarizer",
+        href: "/post-summarizer",
+      },
+      {
+        title: "Similar Post Generator",
+        href: "/Similar-Post-Generator",
+      },
+      {
+        title: "Reply to Comments",
+        href: "/Reply-to-Comments",
+      },
+      {
+        title: "Custom Actions",
+        href: "/custom-actions",
+      },
+      {
+        title: "Custom Personalities",
+        href: "/custom-personalities",
+      },
+      {
+        title: "Brand Voice",
+        href: "/brand-voice",
+      },
+      {
+        title: "Native Language Support",
+        href: "/native-language-support",
+      },
+      {
+        title: "Disabling Olly on Specific Websites",
+        href: "/disabling-olly-on-specific-websites",
+      },
+    ],
+  },
 ];
