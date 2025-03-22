@@ -129,7 +129,7 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Error 429: Exceeded API Quota",
-        href: "/Error 429: Exceeded API Quota",
+        href: "/error-429",
       },
       {
         title: "Virality Checker",
