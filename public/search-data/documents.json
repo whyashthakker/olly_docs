@@ -1,23 +1,5 @@
 [
   {
-    "slug": "/common-errors/Error 401: Incorrect LLM Vendor or API Key",
-    "title": "Error 401: Incorrect LLM Vendor or API Key",
-    "description": "Learn how to troubleshoot and resolve Error 401 when using mismatched API keys",
-    "content": "# Error 401: Incorrect LLM Vendor or API Key\n\n## Why This Error Occurs\n\nThis error indicates that you are using an incorrect LLM vendor. The API key you provided does not match the selected model provider. For example, selecting GPT models while using a ClaudeAI API key will result in this error.\n\nThe typical message is:\n\n```\nHTTP error! status: 401, message: {\n \"error\": {\n   \"message\": \"Incorrect API key provided: olly-ef6**c694. You can find your API key at https://platform.openai.com/account/api-keys./\",\n   \"type\": \"invalid_request_error\",\n   \"param\": null,\n   \"code\": \"invalid_api_key\"\n }\n}\n```\n\n## Steps to Resolve\n\n1. **Check Your API Key**: Ensure you are using the correct API key.\n2. **Verify the LLM Model**: Select the correct model that matches your API key.\n3. **Update in Olly Extension**: Go to the Olly extension and make sure you have selected the appropriate model and API key.\n\n## Frequently Asked Questions (FAQs)\n\n1. **What does Error 401 mean?**\\\n   *It means your API key is incorrect or does not match the selected LLM vendor.*\n\n2. **How do I find my correct API key?**\\\n   *Check the API key section on your LLM provider's platform.*\n"
-  },
-  {
-    "slug": "/common-errors/Error 404: Model Not Available",
-    "title": "Untitled",
-    "description": "",
-    "content": ""
-  },
-  {
-    "slug": "/common-errors/Error 429: Exceeded API Quota",
-    "title": "Error 429: Exceeded API Quota",
-    "description": "Learn how to troubleshoot and resolve Error 429 when you've exceeded your API quota",
-    "content": "# Error 429: Exceeded API Quota\n\n## Why This Error Occurs\n\nThis error indicates that you have run out of LLM credits. The typical message is:\n\n```\nHTTP error! status: 429, message: {\n \"error\": {\n   \"message\": \"You exceeded your current quota, please check your plan and billing details.\"\n }\n}\n```\n\n## Steps to Resolve\n\n1. **Check Your Plan and Billing**: Ensure you have sufficient API credits.\n2. **Add Credits**: Purchase additional credits to continue using the API.\n3. **Watch the Video Guide**: This guide explains the error and resolution in detail: [Watch Here](#)\n\n## Frequently Asked Questions (FAQs)\n\n1. **What does Error 429 mean?**\\\n   *It means you have exceeded your API quota or credits.*\n\n2. **How can I prevent running out of API credits?**\\\n   *Monitor your usage and ensure you have sufficient credits in place.*\n\n3. **Can I set up usage alerts for API credits?**\\\n   *Yes, many platforms provide alerts or limits to prevent overuse.*\n"
-  },
-  {
     "slug": "/common-errors/Error 500: Internal Server Error",
     "title": "Untitled",
     "description": "",
@@ -28,6 +10,18 @@
     "title": "Untitled",
     "description": "",
     "content": ""
+  },
+  {
+    "slug": "/common-errors/error-401",
+    "title": "Error 401: Incorrect LLM Vendor or API Key",
+    "description": "Learn how to troubleshoot and resolve Error 401 when using mismatched API keys",
+    "content": "# Error 401: Incorrect LLM Vendor or API Key\n\n## Why This Error Occurs\n\nThis error indicates that you are using an incorrect LLM vendor. The API key you provided does not match the selected model provider. For example, selecting GPT models while using a ClaudeAI API key will result in this error.\n\nThe typical message is:\n\n```\nHTTP error! status: 401, message: {\n \"error\": {\n   \"message\": \"Incorrect API key provided: olly-ef6**c694. You can find your API key at https://platform.openai.com/account/api-keys./\",\n   \"type\": \"invalid_request_error\",\n   \"param\": null,\n   \"code\": \"invalid_api_key\"\n }\n}\n```\n\n## Steps to Resolve\n\n1. **Check Your API Key**: Ensure you are using the correct API key.\n2. **Verify the LLM Model**: Select the correct model that matches your API key.\n3. **Update in Olly Extension**: Go to the Olly extension and make sure you have selected the appropriate model and API key.\n\n## Frequently Asked Questions (FAQs)\n\n1. **What does Error 401 mean?**\\\n   *It means your API key is incorrect or does not match the selected LLM vendor.*\n\n2. **How do I find my correct API key?**\\\n   *Check the API key section on your LLM provider's platform.*\n"
+  },
+  {
+    "slug": "/common-errors/error-429",
+    "title": "Untitled",
+    "description": "",
+    "content": "***\n\ntitle: \"Error 429: Exceeded API Quota\"\ndescription: \"Learn how to troubleshoot and resolve Error 429 when you've exceeded your API quota\"\n--------------------------------------------------------------------------------------------------\n\n# Error 429: Exceeded API Quota\n\n## Why This Error Occurs\n\nThis error indicates that you have run out of LLM credits. The typical message is:\n\n```\nHTTP error! status: 429, message: {\n \"error\": {\n   \"message\": \"You exceeded your current quota, please check your plan and billing details.\"\n }\n}\n```\n\n## Steps to Resolve\n\n1. **Check Your Plan and Billing**: Ensure you have sufficient API credits.\n2. **Add Credits**: Purchase additional credits to continue using the API.\n3. **Watch the Video Guide**: This guide explains the error and resolution in detail: [Watch Here](#)\n\n## Frequently Asked Questions (FAQs)\n\n1. **What does Error 429 mean?**\\\n   *It means you have exceeded your API quota or credits.*\n\n2. **How can I prevent running out of API credits?**\\\n   *Monitor your usage and ensure you have sufficient credits in place.*\n\n3. **Can I set up usage alerts for API credits?**\\\n   *Yes, many platforms provide alerts or limits to prevent overuse.*\n"
   },
   {
     "slug": "/features/Reply-to-Comments",
