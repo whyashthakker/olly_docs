@@ -6,7 +6,14 @@ import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import { Footer } from "@/components/navigation/footer";
 import { Settings } from "@/lib/meta";
+import dynamic from "next/dynamic";
 import "./globals.css";
+
+// Dynamically import the chat interface to avoid SSR issues
+const AIChatInterface = dynamic(
+  () => import("@/components/ai-chat/chat-interface"),
+  { ssr: false }
+);
 
 const baseUrl = Settings.metadataBase;
 
@@ -66,6 +73,7 @@ export default function RootLayout({
             {children}
           </main>
           <Footer />
+          <AIChatInterface />
         </ThemeProvider>
       </body>
     </html>
