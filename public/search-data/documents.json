@@ -19,7 +19,7 @@
   },
   {
     "slug": "/common-errors/error-429",
-    "title": "Untitled",
+    "title": "Error 429: Exceeded API Quota",
     "description": "",
     "content": "***\n\ntitle: \"Error 429: Exceeded API Quota\"\ndescription: \"Learn how to troubleshoot and resolve Error 429 when you've exceeded your API quota\"\n--------------------------------------------------------------------------------------------------\n\n# Error 429: Exceeded API Quota\n\n## Why This Error Occurs\n\nThis error indicates that you have run out of LLM credits. The typical message is:\n\n```\nHTTP error! status: 429, message: {\n \"error\": {\n   \"message\": \"You exceeded your current quota, please check your plan and billing details.\"\n }\n}\n```\n\n## Steps to Resolve\n\n1. **Check Your Plan and Billing**: Ensure you have sufficient API credits.\n2. **Add Credits**: Purchase additional credits to continue using the API.\n3. **Watch the Video Guide**: This guide explains the error and resolution in detail: [Watch Here](#)\n\n## Frequently Asked Questions (FAQs)\n\n1. **What does Error 429 mean?**\\\n   *It means you have exceeded your API quota or credits.*\n\n2. **How can I prevent running out of API credits?**\\\n   *Monitor your usage and ensure you have sufficient credits in place.*\n\n3. **Can I set up usage alerts for API credits?**\\\n   *Yes, many platforms provide alerts or limits to prevent overuse.*\n"
   },
