@@ -1,0 +1,36 @@
+---
+title: "Error 401: Incorrect LLM Vendor or API Key"
+description: "Learn how to troubleshoot and resolve Error 401 when using mismatched API keys"
+---
+
+
+## Why This Error Occurs
+
+This error indicates that you are using an incorrect LLM vendor. The API key you provided does not match the selected model provider. For example, selecting GPT models while using a ClaudeAI API key will result in this error.
+
+The typical message is:
+
+```
+HTTP error! status: 401, message: {
+ "error": {
+   "message": "Incorrect API key provided: olly-ef6**c694. You can find your API key at https://platform.openai.com/account/api-keys./",
+   "type": "invalid_request_error",
+   "param": null,
+   "code": "invalid_api_key"
+ }
+}
+```
+
+## Steps to Resolve
+
+1. **Check Your API Key**: Ensure you are using the correct API key.
+2. **Verify the LLM Model**: Select the correct model that matches your API key.
+3. **Update in Olly Extension**: Go to the Olly extension and make sure you have selected the appropriate model and API key.
+
+## Frequently Asked Questions (FAQs)
+
+1. **What does Error 401 mean?**  
+   *It means your API key is incorrect or does not match the selected LLM vendor.*
+
+2. **How do I find my correct API key?**  
+   *Check the API key section on your LLM provider's platform.*

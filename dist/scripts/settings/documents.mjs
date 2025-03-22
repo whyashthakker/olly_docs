@@ -65,8 +65,8 @@ export const Documents = [
                     {
                         title: "Straico",
                         href: "/straico",
-                    }
-                ]
+                    },
+                ],
             },
         ],
     },
@@ -74,21 +74,29 @@ export const Documents = [
         spacer: true,
     },
     {
-        title: "Features",
-        href: "/features",
-        heading: "Go Deeper",
+        title: "Common Errors",
+        href: "/common-errors",
+        heading: "Troubleshooting",
         items: [
             {
-                title: "Comment Generator",
-                href: "/comment-generator",
+                title: "Error 429: Exceeded API Quota",
+                href: "/error-429",
             },
             {
-                title: "Virality Checker",
-                href: "/virality-checker",
+                title: "Error 401: Incorrect LLM Vendor or API Key",
+                href: "/error-401",
             },
             {
-                title: "Reply Generator",
-                href: "/virality-checker",
+                title: "Error 404: Model Not Available",
+                href: "/error-404",
+            },
+            {
+                title: "Error: Invalid Activation Key",
+                href: "invalid-activation-key",
+            },
+            {
+                title: "Error 500: Internal Server Error",
+                href: "/error-500",
             },
         ],
     },
