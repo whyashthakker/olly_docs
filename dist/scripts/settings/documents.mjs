@@ -92,7 +92,7 @@ export const Documents = [
             },
             {
                 title: "Error: Invalid Activation Key",
-                href: "invalid-activation-key",
+                href: "/invalid-activation-key",
             },
             {
                 title: "Error 500: Internal Server Error",

@@ -76,6 +76,56 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
+    title: "Features",
+    href: "/features",
+    heading: "Platform Features",
+    items: [
+      {
+        title: "Brand Voice",
+        href: "/brand-voice",
+      },
+      {
+        title: "Custom Actions",
+        href: "/custom-actions",
+      },
+      {
+        title: "Custom Personalities",
+        href: "/custom-personalities",
+      },
+      {
+        title: "Disabling Olly on Specific Websites",
+        href: "/disabling-olly-on-specific-websites",
+      },
+      {
+        title: "Native Language Support",
+        href: "/native-language-support",
+      },
+      {
+        title: "Post Summarizer",
+        href: "/post-summarizer",
+      },
+      {
+        title: "Similar Post Generator",
+        href: "/similar-post-generator",
+      },
+      {
+        title: "Virality Checker",
+        href: "/virality-checker",
+      },
+      {
+        title: "Reply to Comments",
+        href: "/reply-to-comments",
+      },
+      {
+        title: "Comment Generator",
+        href: "/comment-generator",
+      },
+    ],
+  },
+  {
+    spacer: true,
+  },
+  {
     title: "Common Errors",
     href: "/common-errors",
     heading: "Troubleshooting",
