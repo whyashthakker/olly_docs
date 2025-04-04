@@ -120,6 +120,10 @@ export const Documents: Paths[] = [
         title: "Comment Generator",
         href: "/comment-generator",
       },
+      {
+        title: "Auto Commenter",
+        href: "/auto-commenter",
+      }
     ],
   },
   {
