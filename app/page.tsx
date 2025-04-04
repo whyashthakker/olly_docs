@@ -59,7 +59,7 @@ export default function Home() {
           Learn how to set up your Olly account and configure the basic settings
           required to use the platform.
         </p>
-        <div className="flex flex-col sm:flex-row items-center gap-4 mb-8 w-full max-w-md">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8 w-full max-w-md mx-auto">
           <Search />
         </div>
         <div className="flex items-center gap-5">
