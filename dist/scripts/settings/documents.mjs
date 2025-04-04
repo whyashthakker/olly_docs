@@ -31,6 +31,14 @@ export const Documents = [
                 href: "/adding-to-chrome",
             },
             {
+                title: "Windows Installation",
+                href: "/windows",
+            },
+            {
+                title: "Mac Installation",
+                href: "/mac",
+            },
+            {
                 title: "Connecting to LLMs",
                 href: "/connecting-llms",
                 items: [
