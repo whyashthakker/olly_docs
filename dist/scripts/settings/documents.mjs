@@ -118,6 +118,10 @@ export const Documents = [
                 title: "Comment Generator",
                 href: "/comment-generator",
             },
+            {
+                title: "Auto Commenter",
+                href: "/auto-commenter",
+            }
         ],
     },
     {
