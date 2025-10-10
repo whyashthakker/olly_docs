@@ -1,165 +1,242 @@
+# Olly Auto Commenter Configuration Guide
+
+**Learn how to configure the Auto Commenter feature for LinkedIn automation to save time and increase your social media presence.**
+
+**Keywords:** Olly configuration, Auto Commenter, LinkedIn automation, Chrome extension, social media engagement, auto comment
+
 ---
-title: Olly Auto Commenter Configuration Guide
-description: Learn how to configure the Auto Commenter feature for LinkedIn automation to save time and increase your social media presence.
-keywords: ["Olly configuration", "Auto Commenter", "LinkedIn automation", "Chrome extension", "social media engagement", "auto comment"]
----
+
 ![Banner](/images/banner.png "Olly Auto Commenter")
 
+---
+
 ## Introduction
+
 This guide will walk you through configuring the Olly Auto Commenter feature for LinkedIn automation. The Auto Commenter allows you to automatically engage with LinkedIn content while you browse the web, saving you time and increasing your social media presence.
 
-> **Prefer video instructions?** <a href="https://youtu.be/HzIC8kpePwU" target="_blank" rel="noopener noreferrer">Watch our video guide to Auto Commenter setup</a> (opens in new window)
+> **Prefer video instructions?** [Watch our video guide to Auto Commenter setup](https://youtu.be/HzIC8kpePwU) (opens in new window)
 
-<CardGrid>
-  <Card
-    subtitle="Installation"
-    title="Mac Installation Guide"
-    description="Before configuring, make sure to install the Olly application on macOS."
-    href="/docs/installation/mac"
-  />
-  <Card
-    subtitle="Configuration"
-    title="Auto Commenter Setup"
-    description="Learn how to configure the Auto Commenter for LinkedIn engagement."
-    href="/docs/features/auto-commenter/configuration"
-  />
-  <Card
-    subtitle="Support"
-    title="Help Center"
-    description="Get assistance and troubleshooting tips for the Olly Auto Commenter."
-    href="/docs/support"
-  />
-</CardGrid>
+---
+
+## Quick Links
+
+### Installation
+**Mac Installation Guide**  
+Before configuring, make sure to install the Olly application on macOS.  
+[→ Go to Mac Installation Guide](/docs/installation/mac)
+
+### Configuration
+**Auto Commenter Setup**  
+Learn how to configure the Auto Commenter for LinkedIn engagement.  
+[→ Go to Configuration Guide](/docs/features/auto-commenter/configuration)
+
+### Support
+**Help Center**  
+Get assistance and troubleshooting tips for the Olly Auto Commenter.  
+[→ Go to Help Center](/docs/support)
+
+---
 
 ## Before You Begin
-**⚠️ Important:** To use the Auto Commenter feature in the background while you browse, you must first install the full Olly application on your Mac. This allows Olly to run continuously and engage with LinkedIn even when you're not actively on the LinkedIn site.
+
+### ⚠️ Important
+
+To use the Auto Commenter feature in the background while you browse, you must first install the full Olly application on your Mac. This allows Olly to run continuously and engage with supporting social media's platforms even when you're not actively on the social media site.
 
 → **[Follow our Mac Installation Guide here](/docs/installation/mac)**
 
 If you've already installed the Olly app, you can proceed with configuring the Auto Commenter below.
 
+---
+
+## Important Information Before Setup
+
+### 1. LLM Provider Requirement
+
+⚠️ **Auto Commenter only supports the Olly API** and does not work with any other LLM provider. This is because other LLM providers do not provide the necessary permissions to perform background activity required for automated engagement.
+
+### 2. Platform Support
+
+⚠️ **Auto Commenter now supports 5 platforms:**
+- Instagram
+- LinkedIn
+- TikTok
+- Twitter
+- Facebook
+
+---
+
 ## Configuring Olly Auto Commenter
 
-### Step 1: Open Olly Extension 
+### Step 1: Open Olly Extension
+
 Click on the Olly icon in your Chrome extensions toolbar to open the extension popup.
 
+---
+
 ### Step 2: Enable and Sync
+
 In the Olly popup window:
-1. Toggle the "Enable" switch to ON
-2. Toggle the "Sync" switch to ON
+1. Toggle the **"Enable"** switch to ON
+2. Toggle the **"Sync"** switch to ON
 
 ![Sync Icon](/images/features/auto-commenter/step1.png)
 
+---
+
 ### Step 3: Access Settings
-Click on the "Settings" gear icon on the right side of the popup.
+
+Click on the **"Settings"** gear icon on the right side of the popup.
 
 ![Settings Icon](/images/features/auto-commenter/step2.png)
 
+---
+
 ### Step 4: Set Up Auto Commenter
-1. In the settings menu, find and click on the "Auto Commenter" option
-2. Click on "Setup Auto Commenter" button
+
+1. In the settings menu, find and click on the **"Auto Commenter"** option
+2. Click on **"Setup Auto Commenter"** button
 
 ![Auto Commenter Settings](/images/features/auto-commenter/step3.png)
 
+---
+
 ### Step 5: Configure LinkedIn Integration
-1. You will be redirected to the Olly dashboard: https://www.olly.social/dashboard/auto-commenter
-2. Click on "Configure LinkedIn"
+
+1. You will be redirected to the Olly dashboard: `https://www.olly.social/dashboard/auto-commenter/config`
+2. **Select platforms** where you want to use Auto Commenter feature
+3. Review your License Key (should be automatically filled)
+4. You can copy the license key using the button if needed
+5. The system will confirm that this license is valid for the configuration
+
+**Additional Features Available:**
+
+- **Use Your Existing Brand Voice:** You can now use your existing brand voice or you can create a new brand voice if you don't have the existing one in the Auto Commenter so that your responses will feel more human-generated and authentic to your personal or company style.
+
+- **Promote Your Product:** Include product promotion in automated interactions to naturally showcase what you offer while engaging with content.
+  - **Product Details:** Provide details about what you're promoting. This information will be used to generate relevant comments that seamlessly incorporate your product or service.
 
 ![Dashboard Auto Commenter](/images/features/auto-commenter/step4.png)
 
-### Step 6: General Configuration
-In the "LinkedIn Automation Configuration" page with the "General" tab selected:
-1. Review your License Key (should be automatically filled)
-2. You can copy the license key using the button if needed
-3. The system will confirm that this license is valid for the configuration
+---
 
-![LinkedIn Configuration - General Tab](/images/features/auto-commenter/step5.png)
+### Step 6: Content Configuration
 
-### Step 7: Content Configuration
-Click on the "2. Content" tab to configure your content settings:
+#### Set Engagement Limits:
 
-1. Under "Response Configuration", choose your AI Prompt Selection:
-   - Option 1: Use Best AI Prompts (Automatic)
-   - Option 2: Use Custom Prompt
+⚠️ You can set a default maximum of **10 comments** and **10 likes** per run. Additionally, you can add up to **3 target keywords (3 hashtags)** to focus your engagement.
 
-2. If you select "Use Custom Prompt", you can:
-   - Enter your custom instructions for comment generation
-   - Add signature text to appear at the end of each comment
+#### Important - Balancing Comments Between Feed and Keywords:
+
+⚠️ You need to distribute your 10 comments between the general feed and your target keywords.
+
+**Example:**
+- If you add 4 comments on the general feed and you are targeting 3 keywords, you have 6 comments remaining
+- This means you can only add 2 comments per keyword (6 comments ÷ 3 keywords = 2 comments per keyword)
+- You must adjust the 10 comment count between feed engagement and keyword targeting
 
 ![LinkedIn Configuration - Content Tab](/images/features/auto-commenter/step6.png)
 
-### Step 8: Complete Configuration
-1. Set engagement limits (default is maximum 10 likes and 10 comments per run)
-2. Optionally, add target keywords to focus your engagement
-3. Click "Next" to proceed through all configuration tabs
-4. On the final page, click "Save Configuration"
+**If you select "Use Custom Prompt", you can:**
+- Enter your custom instructions for comment generation
+- Add signature text to appear at the end of each comment
 
-![LinkedIn Configuration - Content Tab](/images/features/auto-commenter/step7.png)
+**Complete the Configuration:**
+- On the final page, click **"Save Configuration"**
 
-### Step 9: Sync Your Configuration
+![LinkedIn Configuration - Content Tab](/images/features/auto-commenter/step6-1.png)
+
+---
+
+### Step 7: Sync Your Configuration
+
 1. Return to the Chrome extension
-2. Click on the "Sync" icon to pull your new configuration
+2. Click on the **"Sync"** icon to pull your new configuration
 
 ![Sync Configuration](/images/features/auto-commenter/step8.png)
 
-### Step 10: Verify Auto Commenter Settings
-1. Click on the "Settings" gear icon
-2. Check the "Auto Commenter" tab to confirm your configuration appears
+---
+
+### Step 8: Verify Auto Commenter Settings
+
+1. Click on the **"Settings"** gear icon
+2. Check the **"Auto Commenter"** tab to confirm your configuration appears
 
 ![Verify Configuration](/images/features/auto-commenter/step9.png)
 
+---
+
 ## Feature Benefits
-* **Time Saving**: Automate engagement on LinkedIn posts while you browse the web
-* **Increased Visibility**: Regular engagement helps boost your profile's visibility
-* **Consistent Presence**: Maintain an active presence even when you're busy
-* **Smart Responses**: AI-generated comments that are contextually relevant
-* **Customizable**: Set your own engagement parameters and comment style
+
+- **Time Saving:** Automate engagement on LinkedIn posts while you browse the web
+- **Increased Visibility:** Regular engagement helps boost your profile's visibility
+- **Consistent Presence:** Maintain an active presence even when you're busy
+- **Smart Responses:** AI-generated comments that are contextually relevant
+- **Customizable:** Set your own engagement parameters and comment style
+
+---
 
 ## Who Will This Feature Help?
+
 ### 1. Social Media Managers
-* Easily manage LinkedIn engagement across multiple accounts while focusing on other important tasks
+Easily manage LinkedIn engagement across multiple accounts while focusing on other important tasks
+
 ### 2. Marketers & Content Creators
-* Maintain consistent engagement without spending hours manually commenting on posts
+Maintain consistent engagement without spending hours manually commenting on posts
+
 ### 3. Business Professionals
-* Build your personal brand on LinkedIn with minimal time investment
+Build your personal brand on LinkedIn with minimal time investment
+
 ### 4. Job Seekers
-* Increase your visibility within your professional network when looking for opportunities
+Increase your visibility within your professional network when looking for opportunities
+
+---
 
 ## Using Auto Commenter in Background Mode
 
 ### Do You Want to Use Auto Commenter in the Background?
+
 To use Olly Auto Commenter in the background (while you continue browsing other websites), you need to have the full Olly application installed on your Mac.
 
-* **If you haven't installed Olly yet**: Follow our [Mac Installation Guide](/docs/installation/mac) first
-* **If you've already installed Olly**: You can proceed to activate background mode below
+- **If you haven't installed Olly yet:** Follow our [Mac Installation Guide](/docs/installation/mac) first
+- **If you've already installed Olly:** You can proceed to activate background mode below
+
+---
 
 ### Activating Auto Commenter on LinkedIn
 
-#### Step 11: Navigate to LinkedIn
-1. Navigate to LinkedIn in your browser
+#### Step 9: Navigate to Social Media Platform Where You Want to Use Auto Commenter
+
+1. Navigate to Social Media in your browser
 2. The Olly popup icon should appear on the right side of your screen
-3. Hover over it and click on the "Auto Engage" button
+3. Hover over it and click on the **"Auto Engage"** button
 4. A small window will open in the top right corner and will begin the auto commenting process
 
 ![LinkedIn with Olly Activated](/images/features/auto-commenter/step10.png)
 
-#### Step 12: Background Operation
+---
+
+#### Step 10: Background Operation
+
 1. You can minimize the small window and continue browsing the web
 2. The Auto Commenter will engage on your behalf in the background
-3. You can click the "Stop auto comment" button at any time to halt the process
+3. You can click the **"Stop auto comment"** button at any time to halt the process
 4. When the process completes or is stopped, the window will automatically close
 
 ![Background Operation](/images/features/auto-commenter/step11.png)
 
+---
+
 ## Troubleshooting
+
 If you encounter any issues:
 
-* **Extension not appearing**: Verify Chrome launched with the unthrottled parameters
-* **Configuration not syncing**: Try toggling the Sync button off and on again
-* **Auto Commenter not starting**: Ensure you're logged into LinkedIn and refresh the page
-* **Comments not posting**: Check your daily limits and ensure your LinkedIn account is in good standing
-* **Background mode not working**: Make sure the full Olly app is installed and running
+- **Extension not appearing:** Verify Chrome launched with the unthrottled parameters
+- **Configuration not syncing:** Try toggling the Sync button off and on again
+- **Auto Commenter not starting:** Ensure you're logged into LinkedIn and refresh the page
+- **Comments not posting:** Check your daily limits and ensure your LinkedIn account is in good standing
+- **Background mode not working:** Make sure the full Olly app is installed and running
 
-For additional support or feature requests, please contact support at support@olly.social or visit our [Help Center](/docs/introduction).
+For additional support or feature requests, please contact support at **support@olly.social** or visit our [Help Center](/docs/introduction).
 
 ---
