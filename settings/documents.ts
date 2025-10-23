@@ -33,12 +33,12 @@ export const Documents: Paths[] = [
         href: "/adding-to-chrome",
       },
       {
-      title : "Windows Installation",
-      href : "/windows",
+        title: "Windows Installation",
+        href: "/windows",
       },
       {
-      title : "Mac Installation",
-      href : "/mac",
+        title: "Mac Installation",
+        href: "/mac",
       },
 
       {
@@ -98,8 +98,8 @@ export const Documents: Paths[] = [
         href: "/custom-actions",
       },
       {
-        title: "Custom Personalities",
-        href: "/custom-personalities",
+        title: "Custom Buttons",
+        href: "/custom-buttons",
       },
       {
         title: "Disabling Olly on Specific Websites",
