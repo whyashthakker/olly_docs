@@ -95,8 +95,8 @@ export const Documents = [
                 href: "/custom-actions",
             },
             {
-                title: "Custom Personalities",
-                href: "/custom-personalities",
+                title: "Custom Buttons",
+                href: "/custom-buttons",
             },
             {
                 title: "Disabling Olly on Specific Websites",
