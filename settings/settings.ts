@@ -1,5 +1,6 @@
 export const url = "https://olly.social";
-export const siteicon = "/icon.png";
+export const siteicon = "/logo/Frame_2.png";
+export const siteiconDark = "/logo/Frame_3.png";
 
 export const gtm = "GTM-XXXXXXX";
 export const gtmconnected = true;

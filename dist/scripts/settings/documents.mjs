@@ -129,7 +129,15 @@ export const Documents = [
             {
                 title: "Auto Commenter",
                 href: "/auto-commenter",
-            }
+            },
+            {
+                title: "Olly Goals",
+                href: "/olly-goals",
+            },
+            {
+                title: "Olly Pro",
+                href: "/olly-pro",
+            },
         ],
     },
     {
