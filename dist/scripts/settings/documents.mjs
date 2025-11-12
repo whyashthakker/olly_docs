@@ -127,6 +127,10 @@ export const Documents = [
                 href: "/comment-generator",
             },
             {
+                title: "Social Media Calendar",
+                href: "/social-media-calendar",
+            },
+            {
                 title: "Auto Commenter",
                 href: "/auto-commenter",
             },
